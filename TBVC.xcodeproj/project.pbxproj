@@ -12,6 +12,8 @@
 		8A4E5BFC2010B24800E96827 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A4E5BFA2010B24800E96827 /* Main.storyboard */; };
 		8A4E5BFE2010B24800E96827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A4E5BFD2010B24800E96827 /* Assets.xcassets */; };
 		8A4E5C012010B24800E96827 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A4E5BFF2010B24800E96827 /* LaunchScreen.storyboard */; };
+		8A4E5C092010B2E400E96827 /* TBLVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4E5C082010B2E400E96827 /* TBLVCCell.swift */; };
+		8A4E5C0B2010C18100E96827 /* CVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4E5C0A2010C18100E96827 /* CVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8A4E5BFD2010B24800E96827 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A4E5C002010B24800E96827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A4E5C022010B24800E96827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A4E5C082010B2E400E96827 /* TBLVCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBLVCCell.swift; sourceTree = "<group>"; };
+		8A4E5C0A2010C18100E96827 /* CVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				8A4E5BF62010B24800E96827 /* AppDelegate.swift */,
 				8A4E5BF82010B24800E96827 /* ViewController.swift */,
+				8A4E5C082010B2E400E96827 /* TBLVCCell.swift */,
 				8A4E5BFA2010B24800E96827 /* Main.storyboard */,
 				8A4E5BFD2010B24800E96827 /* Assets.xcassets */,
 				8A4E5BFF2010B24800E96827 /* LaunchScreen.storyboard */,
 				8A4E5C022010B24800E96827 /* Info.plist */,
+				8A4E5C0A2010C18100E96827 /* CVC.swift */,
 			);
 			path = TBVC;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A4E5C0B2010C18100E96827 /* CVC.swift in Sources */,
+				8A4E5C092010B2E400E96827 /* TBLVCCell.swift in Sources */,
 				8A4E5BF92010B24800E96827 /* ViewController.swift in Sources */,
 				8A4E5BF72010B24800E96827 /* AppDelegate.swift in Sources */,
 			);
